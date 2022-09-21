@@ -52,6 +52,19 @@ public class Dos implements Runnable {
         int attakingAmoun = 0;
         Dos dos = new Dos(0, 0);
         Scanner in = new Scanner(System.in);
+        System.out.print(" _   _    _     _____   _    _  _____    _  _____ _____  _    ____ _  __");
+                          | | | |  / \   |__  /  / \  | |/ /_ _|  / \|_   _|_   _|/ \  / ___| |/ /
+                          | |_| | / _ \    / /  / _ \ | ' / | |  / _ \ | |   | | / _ \| |   | ' / 
+                          |  _  |/ ___ \  / /_ / ___ \| . \ | | / ___ \| |   | |/ ___ \ |___| . \ 
+                          |_| |_/_/   \_\/____/_/   \_\_|\_\___/_/   \_\_|   |_/_/   \_\____|_|\_\
+        setText("<font color=green> _   _    _     _____   _    _  _____    _  _____ _____  _    ____ _  __
+                                   | | | |  / \   |__  /  / \  | |/ /_ _|  / \|_   _|_   _|/ \  / ___| |/ /
+                                   | |_| | / _ \    / /  / _ \ | ' / | |  / _ \ | |   | | / _ \| |   | ' / 
+                                   |  _  |/ ___ \  / /_ / ___ \| . \ | | / ___ \| |   | |/ ___ \ |___| . \ 
+                                   |_| |_/_/   \_\/____/_/   \_\_|\_\___/_/   \_\_|   |_/_/   \_\____|_|\_\</font>");
+        System.out.print("HAZAKI ATTACK By Khánh Hoàng||Developer:Khánh Hoàng");
+        System.out.print("Zalo me:0877783799");
+        System.out.print("No attack gov,edu,..");
         System.out.print("Nhap link web di! : ");
         url = in.nextLine();
         System.out.println("\n");
